@@ -25,6 +25,7 @@ class Cell():
         self.left = left
         self.right = right
         self.__win = window
+        self.visited = False
 
     def draw(self):
         if self.top:
